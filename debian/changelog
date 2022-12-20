@@ -1,0 +1,74 @@
+haskell-cryptohash-sha256 (0.11.101.0-deepin1) unstable; urgency=medium
+
+  * Rebuild
+
+ -- Deepin Packages Builder <packages@deepin.org>  Mon, 14 Nov 2022 17:37:24 +0800
+
+haskell-cryptohash-sha256 (0.11.101.0-9) unstable; urgency=medium
+
+  * Patch for newer base.
+
+ -- Clint Adams <clint@debian.org>  Sat, 06 Jun 2020 14:21:00 -0400
+
+haskell-cryptohash-sha256 (0.11.101.0-8) unstable; urgency=medium
+
+  * Newer build-deps from hackage
+
+ -- Ilias Tsitsimpis <iliastsi@debian.org>  Sat, 20 Oct 2018 12:00:29 +0300
+
+haskell-cryptohash-sha256 (0.11.101.0-7) unstable; urgency=medium
+
+  [ Clint Adams ]
+  * Set Rules-Requires-Root to no.
+
+ -- Ilias Tsitsimpis <iliastsi@debian.org>  Sun, 30 Sep 2018 21:05:24 +0300
+
+haskell-cryptohash-sha256 (0.11.101.0-6) unstable; urgency=medium
+
+  * Re-enable tests on all architectures.
+
+ -- Clint Adams <clint@debian.org>  Mon, 30 Apr 2018 19:06:31 -0400
+
+haskell-cryptohash-sha256 (0.11.101.0-5) unstable; urgency=medium
+
+  * Disable tests on mips and mipsel due to strange pipe problem.
+
+ -- Clint Adams <clint@debian.org>  Sun, 29 Apr 2018 10:35:28 -0400
+
+haskell-cryptohash-sha256 (0.11.101.0-4) unstable; urgency=medium
+
+  * Actually fix the build-deps.
+
+ -- Clint Adams <clint@debian.org>  Fri, 13 Apr 2018 08:59:45 -0400
+
+haskell-cryptohash-sha256 (0.11.101.0-3) unstable; urgency=medium
+
+  * Patch for newer tasty.
+
+ -- Clint Adams <clint@debian.org>  Thu, 12 Apr 2018 23:27:58 -0400
+
+haskell-cryptohash-sha256 (0.11.101.0-2) unstable; urgency=medium
+
+  * Bump to Standards-Version 4.1.4.
+
+ -- Clint Adams <clint@debian.org>  Mon, 09 Apr 2018 20:04:45 -0400
+
+haskell-cryptohash-sha256 (0.11.101.0-1) unstable; urgency=medium
+
+  [ Ilias Tsitsimpis ]
+  * Change Priority to optional. Since Debian Policy version 4.0.1,
+    priority extra has been deprecated.
+  * Use the HTTPS form of the copyright-format URL
+  * Modify d/watch and Source field in d/copyright to use HTTPS
+  * Declare compliance with Debian policy 4.1.1
+
+  [ Clint Adams ]
+  * New upstream release
+
+ -- Clint Adams <clint@debian.org>  Fri, 24 Nov 2017 15:37:17 -0500
+
+haskell-cryptohash-sha256 (0.11.100.1-1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Clint Adams <clint@debian.org>  Wed, 21 Jun 2017 21:38:45 -0400
